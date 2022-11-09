@@ -8,5 +8,5 @@ mouse.Button1Down:connect(function()
 if mouse.Target and mouse.Target.Parent then
 game:GetService("ReplicatedStorage").DeleteCar:FireServer(mouse.Target)
 end
-end
+end)
 end)
